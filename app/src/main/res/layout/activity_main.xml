@@ -1,0 +1,128 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4267B2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:textSize="19dp"
+            android:drawableRight="@drawable/baseline_account_circle_24"
+            android:text="Facebook"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="#697565"/>
+        <View
+            android:layout_width="60dp"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"
+            android:background="#697565"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#697565"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="244dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="What's on your mind"
+                android:textColor="#aabbcc"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="#697565"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="1dp"
+                android:text=" User Name"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="244dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="0dp"
+
+                android:text="5 mins ago"
+                android:textColor="#aabbcc"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="244dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="This is a sample post content"
+        android:textColor="#000000" />
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="346dp"
+            android:layout_height="208dp"
+            android:layout_margin="10dp"
+            android:background="#697565" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="244dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text=" Like   Comment   Share"
+        android:textColor="#aabbcc" />
+</LinearLayout>
+
